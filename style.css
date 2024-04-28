@@ -42,16 +42,12 @@ h2 {
 
 .picture {
   border:3px solid darkred ;
-   width:700px;
-   heigth:500px;
+   width:400px;
+   heigth:400px;
    
   
 }
 
-.video { 
- width:700px;
-   heigth:500px; 
-}
 
 .text { 
   border:3px solid pink  ;
@@ -60,5 +56,4 @@ h2 {
   padding:10px;
   background-color:aqua;
 }
-
 
