@@ -17,12 +17,14 @@ font-size:35px;
 h1 { 
 font-size:50px;
 color: brown;
+margin-bottom: 50px;
 }
 
 a {text-decoration: none;
 padding:10px ;
 margin:10px ;
 color: white;
+
 font-size: 20px;}
 
 footer {
@@ -30,6 +32,7 @@ footer {
 background-color: lightgreen;
 border-radius: 10px;
 padding:10px ;
+font-size: 20px;
 }
 
 main{ 
@@ -64,11 +67,26 @@ body {
   background-color: lightyellow;
   font-family: sans-serif;
 }
-
+ 
 .video {
   border: 3px solid brown;
   border-radius: 10px;
   width:560px;
   height:315px;
 }
+
+.unit {
+  margin-bottom: 100px;
+
+}
+
+.beginning {
  
+ border: 3px solid brown;
+ border-radius: 10px;
+ text-align:left;
+ padding:10px ;
+margin:10px ;
+margin-bottom: 100px;
+background-color: lightgreen; 
+}
