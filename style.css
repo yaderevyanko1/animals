@@ -18,6 +18,7 @@ h1 {
 font-size:50px;
 color: brown;
 margin-bottom: 50px;
+text-transform: uppercase;
 }
 
 a {text-decoration: none;
