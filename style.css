@@ -11,10 +11,11 @@ padding:25px ;
 margin:25px ;
 background-color:green ;
 text-align: center;
+font-size:35px;
 } 
 
 h1 { 
-font-size:40px;
+font-size:50px;
 color: brown;
 }
 
@@ -22,19 +23,17 @@ a {text-decoration: none;
 padding:10px ;
 margin:10px ;
 color: white;
-font-family: sans-serif;
 font-size: 20px;}
 
 footer {
   border: 3px solid brown;
 background-color: lightgreen;
-font-family: sans-serif;
 border-radius: 10px;
 padding:10px ;
 }
 
 main{ 
-font-family: sans-serif;
+
 font-size: 20px;
 text-align:center;
 
@@ -46,8 +45,8 @@ h2 {
 .picture {
   border:3px solid brown ;
   border-radius:10px ;
-   width:400px;
-   heigth:300px;
+   width:560px;
+   heigth:315px;
    
   
 }
@@ -63,6 +62,7 @@ h2 {
 
 body {
   background-color: lightyellow;
+  font-family: sans-serif;
 }
 
 .video {
