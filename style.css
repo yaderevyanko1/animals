@@ -17,6 +17,7 @@ font-size:35px;
 h1 { 
 font-size:50px;
 color: brown;
+margin-bottom: 50px;
 }
 
 a {text-decoration: none;
@@ -31,6 +32,7 @@ footer {
 background-color: lightgreen;
 border-radius: 10px;
 padding:10px ;
+font-size: 20px;
 }
 
 main{ 
@@ -63,17 +65,30 @@ h2 {
 
 body {
   background-color: lightyellow;
-  font-family: sans-serif;
-}
 
+  padding: 0 160px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+ 
 .video {
   border: 3px solid brown;
   border-radius: 10px;
   width:560px;
   height:315px;
 }
+
+.unit {
+  margin-bottom: 100px;
+
+}
+
+.beginning {
  
- h4 {
-  color: grey;
-  
- }
+ border: 3px solid brown;
+ border-radius: 10px;
+ text-align:left;
+ padding:10px ;
+margin:10px ;
+margin-bottom: 100px;
+background-color: lightgreen; 
+}
