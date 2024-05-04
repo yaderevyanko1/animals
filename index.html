@@ -1,80 +1,94 @@
-<html>
-<head>
-    <title>largest_creatures</title>
-    <link rel="stylesheet" href="style.css"> <!-- Підключення CSS файлу -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Caveat:wght@400..700&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
+.logo {
+  width:100px;
+  heigth:100px;
+  
+}
 
-<body>
-    <header>
-        <nav>
-            <a href="#Синій кит">Синій кит</a>
-            <a href="#Африканський слон">Африканський слон</a>
-            <a href="#Масайська жирафа"> Масайська жирафа</a>
-            <a href="#Солоноводний крокодил">Солоноводний крокодил</a>
-            <a href="#Страус">Страус</a>
-                   
-        </nav>
-    </header>
+nav { 
+border: 3px solid brown;
+border-radius: 10px;
+padding:25px ;
+margin:25px ;
+background-color:green ;
+text-align: center;
+font-size:35px;
+} 
 
-    <main>
-        <div>
-            <h1> <img class="logo" src="https://cdn.pixabay.com/photo/2024/01/31/17/09/ai-generated-8544463_1280.jpg"/><b><i>Найбільші істоти в світі</i></b><img class="logo" src="https://cdn.pixabay.com/photo/2024/01/31/17/09/ai-generated-8544463_1280.jpg"/> </h1>
-            <p class="beginning">
-                <b> <i>На Землі поруч із нами живуть мільйони різних видів тварин - ссавців, рептилій, птахів, риб, земноводних, комах... Дехто з них може бути ледь помітним оку, інші - досягають величезних (у порівнянні зі своїми "товаришами") розмірів. </i> </b>
-</p> </div>
-        <div>
-            <h2 id="Синій кит"><i><u>Синій кит</u></i></h2>
-           <p class="text"> Найбільша тварина у світі - Синій кит.Ці океанські ссавці можуть важити до 190 тонн, досягати в довжину 30 метрів і мати висоти трішки менш як 5 метрів.</p>
-           <p><img class="picture" src="https://media.istockphoto.com/id/529743649/photo/blue-whale.jpg?s=612x612&w=0&k=20&c=0JFjI8gAVLXzfyS11SFHrLwOvhMBudE9pKXjMR6r0pU="/></p>
-<p class="unit"> <iframe class="video"  src="https://www.youtube.com/embed/R42dXQOtxz0?si=wWJ92tq6KcpEfne2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-        </div> 
-        <div>
-            <h2 id="Африканський слон"><i><u>Африканський слон</u></i></h2>
-            <p class="text">Найбільшою твариною на суші є Африканський слон.
-Він може важити до 11 тонн і виростати до майже 7,5 метрів у довжину й майже 4 метрів у висоту. При цьому самки є зазвичай меншими за самців.</p>
-<p class="unit"><img class="picture" src="https://media.istockphoto.com/id/105701467/photo/a-mother-elephant-walking-with-her-calf-in-the-grass.jpg?s=612x612&w=0&k=20&c=nHr8WlqXAEG6g9LadfeLxxT7Qj0hSMOx5dmhm7Tbmdw="/></p>
-<p class="unit"> <iframe class="video" src="https://www.youtube.com/embed/vqgsoy3ddCM?si=mmVhsUxLjaeB7hpL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+h1 { 
+font-size:50px;
+color: brown;
+margin-bottom: 50px;
+}
 
-        </div>
-        <div>
-            <h2 id="Масайська жирафа"><i> <u>Масайська жирафа</u></i></h2>
-            <p class="text">Найвищою наземною твариною вважають Масайську (кіліманджарську) жирафу.Вага дорослої тварини може досягати кількох тонн. При цьому вона може бути до 5,7 метра висотою.</p>
-          <p><img class="picture" src="https://media.istockphoto.com/id/108350405/photo/giraffe-crosses-dusty-road-in-front-of-white-car.jpg?s=612x612&w=0&k=20&c=rBUzOaDVmFwVDG3GyV-2Jj0r5Z42jP--JWZRkDU48rQ="/></p>
-<p class="unit"> <iframe width="400" height="300" class="video" src="https://www.youtube.com/embed/7OQCdjBlSio?si=9a_AbONvyfV_yfSh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </p>  
-        </div>
-        <div>
-            <h2 id="Солоноводний крокодил"><i><u>Солоноводний крокодил</u></i></h2>
-            <p class="text">Найбільша рептилія сучасного світу - Солоноводний (морський, гребінчастий) крокодил.Самець цього виду може важити до тонни й виростати до 7 метрів у довжину.</p>
-                <p><img class="picture" src="https://cdn.pixabay.com/photo/2013/12/09/09/23/crocodile-225615_1280.jpg"/></p>
-<p class="unit"> <iframe class="video" src="https://www.youtube.com/embed/scFL4V8cQdk?si=Z6fBXm9y0RR_giY6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>  
-        </div>
-        <div>
-            <h2 id="Страус"><i><u>Страус</u></i></h2>
-            <p class="text">Найбільший птах на Землі - страус.Самець страуса може важити до 156 кілограмів і виростати до 2,75 метра у висоту. Самки цього птаха дещо менші. Їх максимальна висота становить близько 2 метрів.</p>
-            <p><img class="picture" src="https://cdn.pixabay.com/photo/2013/07/18/20/27/emu-165079_1280.jpg"/></p>
-<p class="unit"> <iframe class="video" src="https://www.youtube.com/embed/xVBqSJmHajg?si=T6Uo8-OOdPojd9cy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </p>
-        </div>
+a {text-decoration: none;
+padding:10px ;
+margin:10px ;
+color: white;
 
-            </main>
+font-size: 20px;}
 
-    <footer>
+footer {
+  border: 3px solid brown;
+background-color: lightgreen;
+border-radius: 10px;
+padding:10px ;
+font-size: 20px;
 
-        <p><b>&copy; 2024 Найбільші істоти в світі.</b> Усі права захищені.</p>
-        <p>61001,Харківська обл, м. Харків, вул. Звіринська, буд. 48 </p>
-        <p>E-mail: creatures@gmail.com </p>
-        <p>+38 050 123 45 67</p>
-        <a href="https://www.instagram.com"> <img src="https://drive.google.com/thumbnail?id=1x9JpuoUK7kLrxzAKC91HwBhkkkKC3wkj" height="40px">
-        </a>
-        <a href="https://uk-ua.facebook.com/"> <img src="https://drive.google.com/thumbnail?id=1e6qajbpvTh4K9KkmalNWKkzD9v1b8JzK" height="40px">
-        </a>
-        <a href="https://www.youtube.com/"> <img src="https://cdn.pixabay.com/photo/2017/06/23/02/35/youtube-2433301_1280.png" height="40px">
-        </a>
-        🦊
+}
 
-    </footer>
+main{ 
 
-</body>
-</html>
+font-size: 20px;
+text-align:center;
+padding: 0 160px;
+
+}
+h2 { 
+  color: brown; 
+}
+
+.picture {
+  border:3px solid brown ;
+  border-radius:10px ;
+   width:560px;
+   heigth:315px;
+   
+  
+}
+
+
+.text { 
+  border:3px solid brown  ;
+  text-align: left;
+  border-radius:10px;
+  padding:10px;
+  background-color:aqua;
+}
+
+body {
+  background-color: lightyellow;
+font-family: "Merriweather", serif;
+}
+ 
+.video {
+  border: 3px solid brown;
+  border-radius: 10px;
+  width:560px;
+  height:315px;
+}
+
+.unit {
+  margin-bottom: 100px;
+
+}
+
+.beginning {
+ 
+ border: 3px solid brown;
+ border-radius: 10px;
+ text-align:left;
+ padding:10px ;
+margin:10px ;
+margin-bottom: 100px;
+background-color: lightgreen; 
+}
