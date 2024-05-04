@@ -15,9 +15,9 @@ font-size:35px;
 } 
 
 h1 { 
-font-size:50px;
+font-size:40px;
 color: brown;
-margin-bottom: 40px;
+margin-bottom: 50px;
 }
 
 a {text-decoration: none;
@@ -86,7 +86,7 @@ font-family: "Merriweather", serif;
  
  border: 3px solid brown;
  border-radius: 10px;
- text-align:left;
+ text-align:center;
  padding:10px ;
 margin:10px ;
 margin-bottom: 100px;
